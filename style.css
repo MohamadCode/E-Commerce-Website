@@ -10,3 +10,41 @@ html body {
     font-family: 'Roboto', sans-serif;
 
 }
+
+
+nav {
+    height: 80px;
+    display: flex;
+    
+
+}
+
+.nav__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 160px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.nav__link {
+    margin: 16px;
+    text-decoration: none;
+    font-size: 22px;
+     
+}
