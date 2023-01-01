@@ -28,6 +28,9 @@ nav {
     align-items: center;
     margin: 0 auto;
 }
+.purple {
+    color: #7342d6;
+}
 
 .logo {
     width: 160px;
@@ -65,5 +68,10 @@ li {
  }
 
 
+#landing {
+    background-color: rgba(115, 66, 214, 0.1);
+}
 
- 
+header {
+    height: calc(100vh - 88px);
+}
