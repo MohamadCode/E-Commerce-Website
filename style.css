@@ -19,6 +19,10 @@ nav {
 
 }
 
+img {
+    width: 100%;
+}
+
 .nav__container {
     width: 100%;
     max-width: 1200px;
@@ -75,3 +79,20 @@ li {
 header {
     height: calc(100vh - 88px);
 }
+
+
+.header__container {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1 {
+
+
+    
+}
+ 
