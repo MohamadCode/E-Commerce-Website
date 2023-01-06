@@ -149,6 +149,7 @@ padding: 56px 0;
 width: 100%;
 max-width: 1200px;
 margin: 0 auto;
+
 }
 
 /* 
@@ -159,7 +160,8 @@ HIGHLIGHTS
 
  .highlight__wrapper {
     display: flex;
-    
+    justify-content: center;
+    flex-direction: column;
 }
 
 
@@ -170,7 +172,18 @@ HIGHLIGHTS
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
 
 }
+
+
+
+.highlight__para {
+    text-align: center;
+    
+}
+
+
+
 
 
