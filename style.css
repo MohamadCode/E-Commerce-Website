@@ -156,3 +156,8 @@ margin: 0 auto;
 HIGHLIGHTS
 
  */
+
+.highlight__img {
+    display: flex;
+    justify-content: center;
+}
