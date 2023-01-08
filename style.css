@@ -161,7 +161,6 @@ HIGHLIGHTS
  .highlight__wrapper {
     display: flex;
     justify-content: center;
-    flex-direction: column;
 }
 
 
@@ -180,8 +179,29 @@ HIGHLIGHTS
 
 .highlight__para {
     text-align: center;
+    position: relative;
+    bottom: 12px;
 }
 
+.highlight__img {
+    border: 2px solid #7342d65d;
+    color: #7342d6;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 32px;
+    margin-bottom: 6px;
+}
+
+
+.highlight__subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
 
 
 
