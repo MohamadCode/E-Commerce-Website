@@ -25,6 +25,10 @@ img {
     max-height: 50vh;
 }
 
+p {
+    line-height: 1.3;
+}
+
 .nav__container {
     width: 100%;
     max-width: 1200px;
