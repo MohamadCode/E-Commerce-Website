@@ -162,18 +162,24 @@ HIGHLIGHTS
 
  */
 
-#highlights::before {
-    
+#highlights {
+    position: relative;
 }
 
-#highlights::after {
+
+
+
+#highlights::before {
     background: url('/assets/wave.svg');
     content: "";
     position: absolute;
     width: 101vw;
     height: 12vw;
-   
-
+   top: 1px;
+   left: 0;
+   z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
  .highlight__wrapper {
