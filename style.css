@@ -162,6 +162,18 @@ HIGHLIGHTS
 
  */
 
+#highlights::before {
+    
+}
+
+#highlights::after {
+    background: url('/assets/wave.svg');
+    content: "";
+    position: absolute;
+
+
+}
+
  .highlight__wrapper {
     display: flex;
     justify-content: center;
@@ -185,6 +197,7 @@ HIGHLIGHTS
     text-align: center;
     position: relative;
     bottom: 12px;
+    max-width: 280px;
 }
 
 .highlight__img {
@@ -206,6 +219,12 @@ HIGHLIGHTS
     margin-bottom: 20px;
 
 }
+
+
+
+
+
+
 
 
 
