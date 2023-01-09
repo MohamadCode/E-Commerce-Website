@@ -142,6 +142,7 @@ button:active {
 
 .header__img--wrapper {
     padding: 20px;
+    z-index: 2;
 }
 
 .container {
@@ -180,6 +181,7 @@ HIGHLIGHTS
    z-index: 1;
     background-size: cover;
     background-repeat: no-repeat;
+    transform: translateY(-100%);
 }
 
  .highlight__wrapper {
