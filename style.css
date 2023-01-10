@@ -179,9 +179,9 @@ HIGHLIGHTS
    top: 1px;
    left: 0;
    z-index: 1;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transform: translateY(-100%);
+background-size: cover;
+background-repeat: no-repeat;
+transform: translateY(-100%);
 }
 
  .highlight__wrapper {
