@@ -253,7 +253,11 @@ transform: translateY(100%) rotate(180deg);
 
 }
 
+.book__img {
+max-width: 380px;
 
+
+}
 
 
 
