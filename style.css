@@ -261,12 +261,14 @@ transform: translateY(100%) rotate(180deg);
 
 .book {
     width: 25%;
+    
 }
 
 
 .book__img {
+width: 200px;
 max-height: 380px;
-
+!important
 
 }
 
