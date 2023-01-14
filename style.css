@@ -253,19 +253,16 @@ transform: translateY(100%) rotate(180deg);
 
 }
 
-.book {
-display: flex;
-}
-
 .books {
- width: 25%;
-
-    
+    display: flex; 
 }
 
+.book {
+    width: 25%;
+    padding: ;
+}
 
 .book__img {
-width: 200px;
 max-height: 380px;
 
 }
