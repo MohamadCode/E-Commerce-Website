@@ -255,6 +255,7 @@ transform: translateY(100%) rotate(180deg);
 
 .books {
     display: flex; 
+    
 }
 
 .book {
@@ -270,11 +271,14 @@ cursor: no-drop;
 
 
 
+
+
 .book__img--wrapper {
     margin-bottom: 8px;
     border-radius: 4px;
     overflow: hidden;
     display: flex;
+    
 }
 
 .book:hover .book__img {
@@ -284,6 +288,8 @@ cursor: no-drop;
 .book__title {
     font-size: 20px;
     margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
 }
 
 .book__title:hover {
@@ -294,11 +300,19 @@ cursor: no-drop;
 .book__ratings {
     margin-bottom: 8px;
     color: #fabf2a;
+    display: flex;
+    justify-content: center;
 }
 
+.book__price {
+    display: flex;
+    justify-content: center;
+}
 
 .book__price--normal {
     text-decoration: line-through;
     padding-right: 6px;
     color: #bfbfbf;
+     display: flex;
+    justify-content: center;
 }
