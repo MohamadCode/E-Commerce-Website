@@ -253,13 +253,13 @@ transform: translateY(100%) rotate(180deg);
 
 }
 
-.books {
-
-
+.book {
+display: flex;
 }
 
-.book {
-    width: 25%;
+.books {
+ width: 25%;
+
     
 }
 
@@ -267,7 +267,6 @@ transform: translateY(100%) rotate(180deg);
 .book__img {
 width: 200px;
 max-height: 380px;
-!important
 
 }
 
