@@ -247,7 +247,7 @@ transform: translateY(100%) rotate(180deg);
 
 
 #features {
-    height: 1000px;
+    padding-top: 8vw;
     background-color: rgba(115, 66, 214, 0.1);
 
 
@@ -259,15 +259,25 @@ transform: translateY(100%) rotate(180deg);
 
 .book {
     width: 25%;
-    padding: ;
+    padding: 16px;
 }
 
 .book__img {
 max-height: 380px;
-
+transition: all 300ms ease;
+cursor: no-drop;
 }
 
 
 
+.book__img--wrapper {
+    margin-bottom: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+}
 
+.book:hover .book__img {
+    transform: scale(1.03);
+}
 
