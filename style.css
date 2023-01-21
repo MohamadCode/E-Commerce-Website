@@ -311,7 +311,7 @@ cursor: no-drop;
 
 .book__price--normal {
     text-decoration: line-through;
-    padding-right: 6px;
+    padding-right: 10px;
     color: #bfbfbf;
      display: flex;
     justify-content: center;
