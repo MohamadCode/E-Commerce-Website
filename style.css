@@ -261,6 +261,7 @@ transform: translateY(100%) rotate(180deg);
 .book {
     width: 25%;
     padding: 16px;
+    
 }
 
 .book__img {
