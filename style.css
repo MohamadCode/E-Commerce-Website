@@ -255,12 +255,12 @@ transform: translateY(100%) rotate(180deg);
 
 .books {
     display: flex; 
-    
+    flex-wrap: wrap;
 }
 
 .book {
     width: 25%;
-    padding: 16px;
+    
     
 }
 
