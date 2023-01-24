@@ -318,12 +318,22 @@ cursor: no-drop;
     justify-content: center;
 }
 
+#explore {
+    background-color: #7342d65d;
 
+
+}
 
 
 .container__explore {
     padding: 56px;
-    background-color: #7342d65d;
-   
+  
 
+}
+
+
+
+.btn__container {
+    display: flex;
+    justify-content: center;
 }
