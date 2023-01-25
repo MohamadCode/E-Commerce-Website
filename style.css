@@ -334,9 +334,25 @@ cursor: no-drop;
 
 }
 
-
+/* Explore */
 
 .btn__container {
     display: flex;
     justify-content: center;
+}
+
+
+
+/* FOOTER */
+
+
+footer {
+    background-color: #242424;
+
+}
+
+
+.footer__logo--img {
+    width: 160px;
+    filter: grayscale(1) invert(1);
 }
