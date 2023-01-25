@@ -158,6 +158,10 @@ margin: 0 auto;
 
 }
 
+.no-cursor {
+    cursor: not-allowed;
+}
+
 /* 
 
 HIGHLIGHTS
