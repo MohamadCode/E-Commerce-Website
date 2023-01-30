@@ -108,6 +108,14 @@ li {
     z-index: 100;
 }
 
+.btn__menu--close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    padding: 8px;
+    color: white;
+}
+
  /*
  
  LANDING
