@@ -96,6 +96,7 @@ li {
     font-size: 40px;
     text-align: center;
     border: none;
+    display: none;
 }
 
 .menu__backdrop {
@@ -447,4 +448,15 @@ color: #fff;
 
 .footer__link {
     padding: 0 8px;
+}
+
+
+@media (max-width: 550px) {
+    .nav__links {
+        display: none;
+    }
+
+    .btn__menu {
+        display: block;
+    }
 }
