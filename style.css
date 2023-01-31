@@ -284,7 +284,7 @@ transform: translateY(100%) rotate(180deg);
  .highlight__wrapper {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+   
 }
 
 
@@ -496,5 +496,14 @@ color: #fff;
 
     .highlight {
         width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .highlight__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .highlight:not(:last-child) {
+        margin-bottom: 24px;
     }
 }
