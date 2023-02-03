@@ -510,4 +510,8 @@ color: #fff;
     .highlight:not(:last-child) {
         margin-bottom: 24px;
     }
+
+    .book__title {
+        font-size: 18px;
+    }
 }
